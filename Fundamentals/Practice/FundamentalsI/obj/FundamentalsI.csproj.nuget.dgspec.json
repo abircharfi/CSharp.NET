@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\abir8_jgal\\OneDrive\\Bureau\\C#.NET\\Fundamentals\\practice\\FirstCSharp\\FirstCSharp.csproj": {}
+    "C:\\Users\\abir8_jgal\\OneDrive\\Bureau\\C#.NET\\Fundamentals\\practice\\FundamentalsI\\FundamentalsI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\abir8_jgal\\OneDrive\\Bureau\\C#.NET\\Fundamentals\\practice\\FirstCSharp\\FirstCSharp.csproj": {
+    "C:\\Users\\abir8_jgal\\OneDrive\\Bureau\\C#.NET\\Fundamentals\\practice\\FundamentalsI\\FundamentalsI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abir8_jgal\\OneDrive\\Bureau\\C#.NET\\Fundamentals\\practice\\FirstCSharp\\FirstCSharp.csproj",
-        "projectName": "FirstCSharp",
-        "projectPath": "C:\\Users\\abir8_jgal\\OneDrive\\Bureau\\C#.NET\\Fundamentals\\practice\\FirstCSharp\\FirstCSharp.csproj",
+        "projectUniqueName": "C:\\Users\\abir8_jgal\\OneDrive\\Bureau\\C#.NET\\Fundamentals\\practice\\FundamentalsI\\FundamentalsI.csproj",
+        "projectName": "FundamentalsI",
+        "projectPath": "C:\\Users\\abir8_jgal\\OneDrive\\Bureau\\C#.NET\\Fundamentals\\practice\\FundamentalsI\\FundamentalsI.csproj",
         "packagesPath": "C:\\Users\\abir8_jgal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abir8_jgal\\OneDrive\\Bureau\\C#.NET\\Fundamentals\\practice\\FirstCSharp\\obj\\",
+        "outputPath": "C:\\Users\\abir8_jgal\\OneDrive\\Bureau\\C#.NET\\Fundamentals\\practice\\FundamentalsI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\abir8_jgal\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.412\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.417\\RuntimeIdentifierGraph.json"
         }
       }
     }
