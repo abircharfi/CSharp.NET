@@ -1,0 +1,15 @@
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\FirstCSharp\bin\Debug\net6.0\FirstCSharp.exe
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\FirstCSharp\bin\Debug\net6.0\FirstCSharp.deps.json
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\FirstCSharp\bin\Debug\net6.0\FirstCSharp.runtimeconfig.json
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\FirstCSharp\bin\Debug\net6.0\FirstCSharp.dll
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\FirstCSharp\bin\Debug\net6.0\FirstCSharp.pdb
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\FirstCSharp\obj\Debug\net6.0\FirstCSharp.csproj.AssemblyReference.cache
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\FirstCSharp\obj\Debug\net6.0\FirstCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\FirstCSharp\obj\Debug\net6.0\FirstCSharp.AssemblyInfoInputs.cache
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\FirstCSharp\obj\Debug\net6.0\FirstCSharp.AssemblyInfo.cs
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\FirstCSharp\obj\Debug\net6.0\FirstCSharp.csproj.CoreCompileInputs.cache
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\FirstCSharp\obj\Debug\net6.0\FirstCSharp.dll
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\FirstCSharp\obj\Debug\net6.0\refint\FirstCSharp.dll
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\FirstCSharp\obj\Debug\net6.0\FirstCSharp.pdb
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\FirstCSharp\obj\Debug\net6.0\FirstCSharp.genruntimeconfig.cache
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\FirstCSharp\obj\Debug\net6.0\ref\FirstCSharp.dll
