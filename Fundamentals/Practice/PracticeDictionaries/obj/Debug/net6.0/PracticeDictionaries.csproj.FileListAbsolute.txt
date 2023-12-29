@@ -1,0 +1,15 @@
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\PracticeDictionaries\bin\Debug\net6.0\PracticeDictionaries.exe
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\PracticeDictionaries\bin\Debug\net6.0\PracticeDictionaries.deps.json
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\PracticeDictionaries\bin\Debug\net6.0\PracticeDictionaries.runtimeconfig.json
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\PracticeDictionaries\bin\Debug\net6.0\PracticeDictionaries.dll
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\PracticeDictionaries\bin\Debug\net6.0\PracticeDictionaries.pdb
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\PracticeDictionaries\obj\Debug\net6.0\PracticeDictionaries.csproj.AssemblyReference.cache
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\PracticeDictionaries\obj\Debug\net6.0\PracticeDictionaries.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\PracticeDictionaries\obj\Debug\net6.0\PracticeDictionaries.AssemblyInfoInputs.cache
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\PracticeDictionaries\obj\Debug\net6.0\PracticeDictionaries.AssemblyInfo.cs
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\PracticeDictionaries\obj\Debug\net6.0\PracticeDictionaries.csproj.CoreCompileInputs.cache
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\PracticeDictionaries\obj\Debug\net6.0\PracticeDictionaries.dll
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\PracticeDictionaries\obj\Debug\net6.0\refint\PracticeDictionaries.dll
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\PracticeDictionaries\obj\Debug\net6.0\PracticeDictionaries.pdb
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\PracticeDictionaries\obj\Debug\net6.0\PracticeDictionaries.genruntimeconfig.cache
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\PracticeDictionaries\obj\Debug\net6.0\ref\PracticeDictionaries.dll

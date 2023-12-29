@@ -1,0 +1,15 @@
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\PracticeTest\bin\Debug\net6.0\PracticeTest.exe
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\PracticeTest\bin\Debug\net6.0\PracticeTest.deps.json
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\PracticeTest\bin\Debug\net6.0\PracticeTest.runtimeconfig.json
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\PracticeTest\bin\Debug\net6.0\PracticeTest.dll
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\PracticeTest\bin\Debug\net6.0\PracticeTest.pdb
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\PracticeTest\obj\Debug\net6.0\PracticeTest.csproj.AssemblyReference.cache
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\PracticeTest\obj\Debug\net6.0\PracticeTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\PracticeTest\obj\Debug\net6.0\PracticeTest.AssemblyInfoInputs.cache
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\PracticeTest\obj\Debug\net6.0\PracticeTest.AssemblyInfo.cs
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\PracticeTest\obj\Debug\net6.0\PracticeTest.csproj.CoreCompileInputs.cache
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\PracticeTest\obj\Debug\net6.0\PracticeTest.dll
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\PracticeTest\obj\Debug\net6.0\refint\PracticeTest.dll
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\PracticeTest\obj\Debug\net6.0\PracticeTest.pdb
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\PracticeTest\obj\Debug\net6.0\PracticeTest.genruntimeconfig.cache
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\practice\PracticeTest\obj\Debug\net6.0\ref\PracticeTest.dll
