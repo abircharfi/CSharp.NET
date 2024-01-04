@@ -1,0 +1,15 @@
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\Core\CollectionsPractice\obj\Debug\net6.0\CollectionsPractice.csproj.AssemblyReference.cache
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\Core\CollectionsPractice\obj\Debug\net6.0\CollectionsPractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\Core\CollectionsPractice\obj\Debug\net6.0\CollectionsPractice.AssemblyInfoInputs.cache
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\Core\CollectionsPractice\obj\Debug\net6.0\CollectionsPractice.AssemblyInfo.cs
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\Core\CollectionsPractice\obj\Debug\net6.0\CollectionsPractice.csproj.CoreCompileInputs.cache
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\Core\CollectionsPractice\bin\Debug\net6.0\CollectionsPractice.exe
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\Core\CollectionsPractice\bin\Debug\net6.0\CollectionsPractice.deps.json
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\Core\CollectionsPractice\bin\Debug\net6.0\CollectionsPractice.runtimeconfig.json
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\Core\CollectionsPractice\bin\Debug\net6.0\CollectionsPractice.dll
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\Core\CollectionsPractice\bin\Debug\net6.0\CollectionsPractice.pdb
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\Core\CollectionsPractice\obj\Debug\net6.0\CollectionsPractice.dll
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\Core\CollectionsPractice\obj\Debug\net6.0\refint\CollectionsPractice.dll
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\Core\CollectionsPractice\obj\Debug\net6.0\CollectionsPractice.pdb
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\Core\CollectionsPractice\obj\Debug\net6.0\CollectionsPractice.genruntimeconfig.cache
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\Core\CollectionsPractice\obj\Debug\net6.0\ref\CollectionsPractice.dll
