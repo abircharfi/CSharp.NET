@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\abir8_jgal\\OneDrive\\Bureau\\C#.NET\\Fundamentals\\Practice\\FirstCSharp\\FirstCSharp.csproj",
-      "projectName": "FirstCSharp",
-      "projectPath": "C:\\Users\\abir8_jgal\\OneDrive\\Bureau\\C#.NET\\Fundamentals\\Practice\\FirstCSharp\\FirstCSharp.csproj",
+      "projectUniqueName": "C:\\Users\\abir8_jgal\\OneDrive\\Bureau\\C#.NET\\Fundamentals\\Practice\\DebuggingPractice\\DebuggingPractice.csproj",
+      "projectName": "DebuggingPractice",
+      "projectPath": "C:\\Users\\abir8_jgal\\OneDrive\\Bureau\\C#.NET\\Fundamentals\\Practice\\DebuggingPractice\\DebuggingPractice.csproj",
       "packagesPath": "C:\\Users\\abir8_jgal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\abir8_jgal\\OneDrive\\Bureau\\C#.NET\\Fundamentals\\Practice\\FirstCSharp\\obj\\",
+      "outputPath": "C:\\Users\\abir8_jgal\\OneDrive\\Bureau\\C#.NET\\Fundamentals\\Practice\\DebuggingPractice\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\abir8_jgal\\AppData\\Roaming\\NuGet\\NuGet.Config"
