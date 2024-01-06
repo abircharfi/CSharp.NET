@@ -1,0 +1,15 @@
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\Practice\FundamentalsII\bin\Debug\net6.0\FundamentalsII.exe
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\Practice\FundamentalsII\bin\Debug\net6.0\FundamentalsII.deps.json
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\Practice\FundamentalsII\bin\Debug\net6.0\FundamentalsII.runtimeconfig.json
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\Practice\FundamentalsII\bin\Debug\net6.0\FundamentalsII.dll
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\Practice\FundamentalsII\bin\Debug\net6.0\FundamentalsII.pdb
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\Practice\FundamentalsII\obj\Debug\net6.0\FundamentalsII.csproj.AssemblyReference.cache
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\Practice\FundamentalsII\obj\Debug\net6.0\FundamentalsII.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\Practice\FundamentalsII\obj\Debug\net6.0\FundamentalsII.AssemblyInfoInputs.cache
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\Practice\FundamentalsII\obj\Debug\net6.0\FundamentalsII.AssemblyInfo.cs
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\Practice\FundamentalsII\obj\Debug\net6.0\FundamentalsII.csproj.CoreCompileInputs.cache
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\Practice\FundamentalsII\obj\Debug\net6.0\FundamentalsII.dll
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\Practice\FundamentalsII\obj\Debug\net6.0\refint\FundamentalsII.dll
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\Practice\FundamentalsII\obj\Debug\net6.0\FundamentalsII.pdb
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\Practice\FundamentalsII\obj\Debug\net6.0\FundamentalsII.genruntimeconfig.cache
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\Fundamentals\Practice\FundamentalsII\obj\Debug\net6.0\ref\FundamentalsII.dll
