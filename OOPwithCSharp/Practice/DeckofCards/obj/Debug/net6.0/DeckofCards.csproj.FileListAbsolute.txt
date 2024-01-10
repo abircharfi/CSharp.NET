@@ -1,0 +1,15 @@
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Practice\DeckofCards\obj\Debug\net6.0\DeckofCards.csproj.AssemblyReference.cache
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Practice\DeckofCards\obj\Debug\net6.0\DeckofCards.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Practice\DeckofCards\obj\Debug\net6.0\DeckofCards.AssemblyInfoInputs.cache
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Practice\DeckofCards\obj\Debug\net6.0\DeckofCards.AssemblyInfo.cs
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Practice\DeckofCards\obj\Debug\net6.0\DeckofCards.csproj.CoreCompileInputs.cache
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Practice\DeckofCards\bin\Debug\net6.0\DeckofCards.exe
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Practice\DeckofCards\bin\Debug\net6.0\DeckofCards.deps.json
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Practice\DeckofCards\bin\Debug\net6.0\DeckofCards.runtimeconfig.json
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Practice\DeckofCards\bin\Debug\net6.0\DeckofCards.dll
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Practice\DeckofCards\bin\Debug\net6.0\DeckofCards.pdb
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Practice\DeckofCards\obj\Debug\net6.0\DeckofCards.dll
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Practice\DeckofCards\obj\Debug\net6.0\refint\DeckofCards.dll
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Practice\DeckofCards\obj\Debug\net6.0\DeckofCards.pdb
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Practice\DeckofCards\obj\Debug\net6.0\DeckofCards.genruntimeconfig.cache
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Practice\DeckofCards\obj\Debug\net6.0\ref\DeckofCards.dll
