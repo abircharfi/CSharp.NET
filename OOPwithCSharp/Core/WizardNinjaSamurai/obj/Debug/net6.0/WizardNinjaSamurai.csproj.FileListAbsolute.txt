@@ -1,0 +1,15 @@
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Core\WizardNinjaSamurai\obj\Debug\net6.0\WizardNinjaSamurai.csproj.AssemblyReference.cache
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Core\WizardNinjaSamurai\obj\Debug\net6.0\WizardNinjaSamurai.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Core\WizardNinjaSamurai\obj\Debug\net6.0\WizardNinjaSamurai.AssemblyInfoInputs.cache
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Core\WizardNinjaSamurai\obj\Debug\net6.0\WizardNinjaSamurai.AssemblyInfo.cs
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Core\WizardNinjaSamurai\obj\Debug\net6.0\WizardNinjaSamurai.csproj.CoreCompileInputs.cache
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Core\WizardNinjaSamurai\bin\Debug\net6.0\WizardNinjaSamurai.exe
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Core\WizardNinjaSamurai\bin\Debug\net6.0\WizardNinjaSamurai.deps.json
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Core\WizardNinjaSamurai\bin\Debug\net6.0\WizardNinjaSamurai.runtimeconfig.json
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Core\WizardNinjaSamurai\bin\Debug\net6.0\WizardNinjaSamurai.dll
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Core\WizardNinjaSamurai\bin\Debug\net6.0\WizardNinjaSamurai.pdb
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Core\WizardNinjaSamurai\obj\Debug\net6.0\WizardNinjaSamurai.dll
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Core\WizardNinjaSamurai\obj\Debug\net6.0\refint\WizardNinjaSamurai.dll
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Core\WizardNinjaSamurai\obj\Debug\net6.0\WizardNinjaSamurai.pdb
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Core\WizardNinjaSamurai\obj\Debug\net6.0\WizardNinjaSamurai.genruntimeconfig.cache
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Core\WizardNinjaSamurai\obj\Debug\net6.0\ref\WizardNinjaSamurai.dll
