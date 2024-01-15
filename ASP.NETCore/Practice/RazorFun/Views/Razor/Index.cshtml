@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Here are some delicious food !</h1>
+    @{
+    var array = new string[] {"Apple Pie","Pizza","Cinnamon Rolls","Lasagna", "Donuts","Chocolate Cake", "Burritos"};
+
+    foreach(var element in array)
+    {
+        char characterAtIndex0 = element[0];
+        if(characterAtIndex0 == 'C'){
+           <p style="color: Red">@element</p> 
+        }
+        else{
+        <p>@element</p>
+        }
+    }
+
+    }
+</body>
+</html>
