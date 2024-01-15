@@ -1,0 +1,15 @@
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Optional\TerminalRPGEncounter\obj\Debug\net6.0\TerminalRPGEncounter.csproj.AssemblyReference.cache
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Optional\TerminalRPGEncounter\obj\Debug\net6.0\TerminalRPGEncounter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Optional\TerminalRPGEncounter\obj\Debug\net6.0\TerminalRPGEncounter.AssemblyInfoInputs.cache
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Optional\TerminalRPGEncounter\obj\Debug\net6.0\TerminalRPGEncounter.AssemblyInfo.cs
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Optional\TerminalRPGEncounter\obj\Debug\net6.0\TerminalRPGEncounter.csproj.CoreCompileInputs.cache
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Optional\TerminalRPGEncounter\bin\Debug\net6.0\TerminalRPGEncounter.exe
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Optional\TerminalRPGEncounter\bin\Debug\net6.0\TerminalRPGEncounter.deps.json
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Optional\TerminalRPGEncounter\bin\Debug\net6.0\TerminalRPGEncounter.runtimeconfig.json
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Optional\TerminalRPGEncounter\bin\Debug\net6.0\TerminalRPGEncounter.dll
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Optional\TerminalRPGEncounter\bin\Debug\net6.0\TerminalRPGEncounter.pdb
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Optional\TerminalRPGEncounter\obj\Debug\net6.0\TerminalRPGEncounter.dll
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Optional\TerminalRPGEncounter\obj\Debug\net6.0\refint\TerminalRPGEncounter.dll
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Optional\TerminalRPGEncounter\obj\Debug\net6.0\TerminalRPGEncounter.pdb
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Optional\TerminalRPGEncounter\obj\Debug\net6.0\TerminalRPGEncounter.genruntimeconfig.cache
+C:\Users\abir8_jgal\OneDrive\Bureau\C#.NET\OOPwithCSharp\Optional\TerminalRPGEncounter\obj\Debug\net6.0\ref\TerminalRPGEncounter.dll
