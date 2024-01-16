@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "M3jS05x6b8G8BJ6+SxipldF7XIg2CgqpUse2GShgRck=",
+  "Source": "PortfolioII",
+  "BasePath": "_content/PortfolioII",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PortfolioII\\wwwroot",
+      "Source": "PortfolioII",
+      "ContentRoot": "C:\\Users\\abir8_jgal\\OneDrive\\Bureau\\C#.NET\\ASP.NETCore\\Practice\\PortfolioII\\wwwroot\\",
+      "BasePath": "_content/PortfolioII",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\abir8_jgal\\OneDrive\\Bureau\\C#.NET\\ASP.NETCore\\Practice\\PortfolioII\\wwwroot\\css\\style.css",
+      "SourceId": "PortfolioII",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\abir8_jgal\\OneDrive\\Bureau\\C#.NET\\ASP.NETCore\\Practice\\PortfolioII\\wwwroot\\",
+      "BasePath": "_content/PortfolioII",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\abir8_jgal\\OneDrive\\Bureau\\C#.NET\\ASP.NETCore\\Practice\\PortfolioII\\wwwroot\\photo\\pdp.jpg",
+      "SourceId": "PortfolioII",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\abir8_jgal\\OneDrive\\Bureau\\C#.NET\\ASP.NETCore\\Practice\\PortfolioII\\wwwroot\\",
+      "BasePath": "_content/PortfolioII",
+      "RelativePath": "photo/pdp.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photo\\pdp.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\abir8_jgal\\OneDrive\\Bureau\\C#.NET\\ASP.NETCore\\Practice\\PortfolioII\\wwwroot\\photo\\projet-net-application-c-l.jpg",
+      "SourceId": "PortfolioII",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\abir8_jgal\\OneDrive\\Bureau\\C#.NET\\ASP.NETCore\\Practice\\PortfolioII\\wwwroot\\",
+      "BasePath": "_content/PortfolioII",
+      "RelativePath": "photo/projet-net-application-c-l.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photo\\projet-net-application-c-l.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\abir8_jgal\\OneDrive\\Bureau\\C#.NET\\ASP.NETCore\\Practice\\PortfolioII\\wwwroot\\photo\\python.jpg",
+      "SourceId": "PortfolioII",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\abir8_jgal\\OneDrive\\Bureau\\C#.NET\\ASP.NETCore\\Practice\\PortfolioII\\wwwroot\\",
+      "BasePath": "_content/PortfolioII",
+      "RelativePath": "photo/python.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photo\\python.jpg"
+    }
+  ]
+}

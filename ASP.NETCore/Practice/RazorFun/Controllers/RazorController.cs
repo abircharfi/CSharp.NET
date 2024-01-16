@@ -8,6 +8,6 @@ public class Razor : Controller
 
     public ViewResult Index()
     {
-        return View("Index");
+        return View();
     }
 }

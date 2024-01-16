@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="~/css/style.css"/>
+</head>
+<body>
+      <nav>
+        <a href="@Url.Action("Index", "Portfolio")" @(ViewBag.CurrentPage == "Home" ? "class=current" : "")>Home</a> |
+        <a href="@Url.Action("Projects", "Portfolio")" @(ViewBag.CurrentPage == "Projects" ? "class=current" : "")>Projects</a> |
+        <a href="@Url.Action("Contact", "Portfolio")" @(ViewBag.CurrentPage == "Contact" ? "class=current" : "")>Contact</a>
+    </nav>
+    <div class="title">
+     <h3>My projects</h3>
+    </div> 
+     <div class="container">
+        
+        <div class="row">
+            <img class="image" src="~/photo/projet-net-application-c-l.jpg" alt="">
+            <div class="text">an online hotel room booking system. Such a system will allow users to access it from a web browser, view the available rooms, and make bookings. To proceed with the project, you need to create various web pages, including a home page, about us page, and contact us page.</div>
+            
+        </div>
+
+
+        <div class="row">
+            <img class="image" src="~/photo/python.jpg" alt="">
+            <div class="text">an online multiplayer game where you can play with anyone around the world. This project is a great introduction to working with sockets, networking, and Pygame. </div>
+            
+        </div>
+
+    </div>
+</body>
+</html>
