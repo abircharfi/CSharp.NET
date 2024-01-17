@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Info</title>
+    <link  rel="stylesheet" href="~/css/style.css"/>
+</head>
+<body>
+<div class="container">
+    <h3>Submitted Info</h3>
+
+    <p><strong>Name:</strong> @ViewBag.YourName </p>
+    <p><strong>Dojo Location:</strong> @ViewBag.DojoLocation</p>
+    <p><strong>Favorite Language:</strong> @ViewBag.FavoriteLanguage</p>
+    <p><strong>Comment:</strong> @ViewBag.Comments</p>
+  
+      <a href="/">
+        <button type="button">Go Back</button>
+    </a>
+   
+</div>
+    
+</body>
+</html>
