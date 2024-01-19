@@ -1,0 +1,26 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model List<Survey>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+<div class="container">
+    <h1>Submitted Info</h1>
+
+    <div class="row">
+        @foreach (Survey s in Model)
+        {
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <p class="card-title"><strong>Name:</strong> @s.yourName</p>
+                        <p class="card-text"><strong>Dojo Location:</strong> @s.dojoLocation</p>
+                        <p class="card-text"><strong>Favorite Language:</strong> @s.favoriteLanguage</p>
+                        <p class="card-text"><strong>Comments:</strong> @s.comments</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
