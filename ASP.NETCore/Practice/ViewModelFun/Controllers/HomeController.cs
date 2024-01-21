@@ -7,7 +7,7 @@ namespace ViewModelFun.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
-
+     List<User> users = new List<User>() {"Moose Phillips","Sarah","Jerry","Rene Ricky"};
     public HomeController(ILogger<HomeController> logger)
     {
         _logger = logger;
@@ -49,7 +49,18 @@ public class HomeController : Controller
     [HttpGet("/user")]
     public IActionResult User()
     {
-        List<string> users = new List<string>() {"Moose Phillips","Sarah","Jerry","Rene Ricky"};
+        
         return View(users);
+    }
+
+    [HttpGet("user")]
+    public IActionResult User()
+   {
+    User newUser = new User()
+    {
+        FirstName = "Nichole",
+        LastName = "King"
+    };
+    return View(users);
     }
 }
