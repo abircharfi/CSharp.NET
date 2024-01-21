@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model User
+
+<form asp-action="Create" method="post">
+    <label asp-for="DateInFuture">Date of Diplome :</label>
+    <input asp-for="DateInFuture" />
+    <span asp-validation-for="DateInFuture" class="text-danger"></span>
+
+    <button type="submit">Submit</button>
+</form>
