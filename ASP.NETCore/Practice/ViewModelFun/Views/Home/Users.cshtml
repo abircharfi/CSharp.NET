@@ -2,14 +2,12 @@
     ViewData["Title"] = "Home Page";
 }
 
-
 <div class="text-center">
-    <h1 class="display-4">Here are somes users</h1>
-   
-    
-    @foreach (string user in Model)
+    <h1 class="display-4">Here are some users</h1>
+
+    @foreach (var user in Model)
     {
-        <p>@user</p>
+        <p>@user.FirstName @user.LastName</p>
     }
-    
+
 </div>

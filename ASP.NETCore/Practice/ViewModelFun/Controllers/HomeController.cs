@@ -1,66 +1,66 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging; // Add this line for ILogger
 using ViewModelFun.Models;
+using System.Collections.Generic; // Add this line for List<T>
 
-namespace ViewModelFun.Controllers;
-
-public class HomeController : Controller
+namespace ViewModelFun.Controllers
 {
-    private readonly ILogger<HomeController> _logger;
-     List<User> users = new List<User>() {"Moose Phillips","Sarah","Jerry","Rene Ricky"};
-    public HomeController(ILogger<HomeController> logger)
+    public class HomeController : Controller
     {
-        _logger = logger;
-    }
+        private readonly ILogger<HomeController> _logger;
+        private List<User> users = new List<User>
+        {
+            new User { FirstName = "Moose", LastName = "Phillips" },
+            new User { FirstName = "Sarah" },
+            new User { FirstName = "Jerry" },
+            new User { FirstName = "Rene", LastName = "Ricky" }
+        };
 
-    public IActionResult Index()
-    {
-        string message = "Here is a message !";
-        return View("Index", message);
-    }
+        public HomeController(ILogger<HomeController> logger)
+        {
+            _logger = logger;
+        }
 
-    public IActionResult Privacy()
-    {
-        return View();
-    }
+        public IActionResult Index()
+        {
+            string message = "Here is a message!";
+            return View("Index", message);
+        }
 
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-    }
+        public IActionResult Privacy()
+        {
+            return View();
+        }
 
-     
-     [HttpGet("/numbers")]
-    public IActionResult Numbers ()
-    {
-        int [] numbers = new int[] {1,2,3,10,43,5};
-        return View(numbers);
-    }
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
+        {
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
 
-    [HttpGet("/users")]
-    public IActionResult Users ()
-    {
-        List<string> users = new List<string>() {"Moose Phillips","Sarah","Jerry","Rene Ricky"};
-        return View(users);
-    }
+        [HttpGet("/numbers")]
+        public IActionResult Numbers()
+        {
+            int[] numbers = new int[] { 1, 2, 3, 10, 43, 5 };
+            return View(numbers);
+        }
 
-    
-    [HttpGet("/user")]
-    public IActionResult User()
-    {
-        
-        return View(users);
-    }
+        [HttpGet("/users")]
+        public IActionResult Users()
+        {
+            return View(users);
+        }
 
-    [HttpGet("user")]
-    public IActionResult User()
-   {
-    User newUser = new User()
-    {
-        FirstName = "Nichole",
-        LastName = "King"
-    };
-    return View(users);
+        [HttpGet("/user")]
+        public IActionResult User()
+        {
+            User newUser = new User
+            {
+                FirstName = "Nichole",
+                LastName = "King"
+            };
+            return View(newUser);
+        }
     }
 }
