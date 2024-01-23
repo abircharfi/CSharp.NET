@@ -1,4 +1,4 @@
-using System;
+
 using System.ComponentModel.DataAnnotations;
 
 public class CommentValidationAttribute : ValidationAttribute
@@ -6,7 +6,7 @@ public class CommentValidationAttribute : ValidationAttribute
     protected override ValidationResult IsValid(object value, ValidationContext validationContext)
     {
         
-        if (value == null || string.IsNullOrWhiteSpace(value.ToString()))
+        if (value == null)
         {
             return ValidationResult.Success; 
         }

@@ -26,26 +26,21 @@ public class HomeController : Controller
         return View();
     }
 
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-
-    }
-
+   
 
       [HttpPost]
       public IActionResult Submission(Survey yourSurvey)
       {
-          if (ModelState.IsValid)
+          if (!ModelState.IsValid)
           { 
-            Surveys.Add(yourSurvey);
-            return RedirectToAction("Results" );
-          }
-          else
-          {
+             
             return View("Index",yourSurvey);
-          }   
+          }
+            Surveys.Add(yourSurvey);
+
+          
+
+            return RedirectToAction("Results" );
        }
 
       [HttpGet("/result")]
@@ -53,5 +48,12 @@ public class HomeController : Controller
       {
          return View(Surveys);
       }
+
+     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+    public IActionResult Error()
+    {
+        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+
+    }
 
 }

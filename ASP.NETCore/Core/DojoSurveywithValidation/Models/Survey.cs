@@ -17,5 +17,5 @@ public class Survey
     public string favoriteLanguage { get; set; }
 
     [CommentValidation]
-    public string comments { get; set; }
+    public string? comments { get; set; }
 }
