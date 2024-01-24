@@ -1,8 +1,7 @@
-﻿using System.Diagnostics;
+﻿
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging; // Add this line for ILogger
 using ViewModelFun.Models;
-using System.Collections.Generic; // Add this line for List<T>
+
 
 namespace ViewModelFun.Controllers
 {
