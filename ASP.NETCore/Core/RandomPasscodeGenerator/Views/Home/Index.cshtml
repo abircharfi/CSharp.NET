@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model List<char>
+
+<div class="text-center">
+    <div class="container mt-5">
+        <form asp-action="Random" asp-controller="Home" method="post">
+            <div class="form-group">
+                <label name="passcode">Random passcode # @ViewBag.Counter </label>
+                <input class="form-control" name="passcode" value="@string.Join("", Model)">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
