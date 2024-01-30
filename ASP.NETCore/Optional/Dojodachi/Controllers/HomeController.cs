@@ -9,6 +9,7 @@ namespace Dojodachi.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
+
     Pet myPet = new Pet();
 
     public HomeController(ILogger<HomeController> logger)
@@ -62,7 +63,6 @@ public class HomeController : Controller
 
         Pet myPet = GetPetFromSession();
         string message = myPet.feed();
-        System.Console.WriteLine(myPet);
         SavePetToSession(myPet);
         TempData["message"] = message;
     return RedirectToAction("Index");
