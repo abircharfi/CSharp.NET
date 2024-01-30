@@ -1,0 +1,54 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@using Dojodachi.Models
+@model Pet
+<div class="text-center">
+     <div class="center">
+        <div class="values">
+            @if (Model != null)
+            {
+            <p>Fullness: @Model.fullness</p>
+            <p>Happiness: @Model.happiness</p>
+            <p>Meals: @Model.meals</p>
+            <p>Energy: @Model.energy</p>
+            }
+        </div>
+
+        <div class="frame">
+            @if (ViewBag.Won == true)
+            {
+           <img src="lib/photos/happy.jpg" alt="Pet Photo" class="photo"/>
+            }
+             else if (ViewBag.Lost == true)
+            {
+            <img src="lib/photos/sad.jpg" alt="Pet Photo" class="photo"/>
+            }
+            else
+            {
+        <img src="lib/photos/pet.jpeg" alt="Pet Photo" class="photo"/>
+            }
+    <p>@ViewBag.message</p>
+
+    @if (ViewBag.Won == true || ViewBag.Lost == true )
+    {
+            <form asp-action="Restart" method="post"><button onclick="restart()">Restart ?</button></form>
+            
+    }
+    
+    else
+    {
+     
+     <div class="buttons">
+                <form asp-action="Feed" method="post"><button onclick="feed()">Feed</button></form>          
+                <form asp-action="Play" method="post"><button onclick="play()">Play</button></form>
+                <form asp-action="Work" method="post"><button onclick="work()">Work</button></form>
+                <form asp-action="Sleep" method="post"><button onclick="sleep()">Sleep</button></form>
+            </div>
+         
+    }
+</div>
+
+
+</div>
