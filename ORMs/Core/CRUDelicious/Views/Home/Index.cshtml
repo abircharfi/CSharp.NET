@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model List<Dish>
+
+<div class="text-center">
+    <h1>Welcome To CRUDelicious</h1>
+    <div style="text-align: left; margin-left: auto; margin-right: auto; margin-top:20px;">
+        <h3><u>Check out some recent dishes</u></h3>
+
+        <ul style="list-style-type: none;">
+            @foreach (Dish d in Model)
+            {
+                <li style="margin-bottom: 10px; ">
+                    <a asp-action="DisplayOne" asp-controller="Home" asp-route-id="@d.DishId" style="color: #007bff; text-decoration: none;">@d.Name</a> By @d.Chef
+                </li>
+            }
+        </ul>
+    </div>
+
+</div>
