@@ -20,7 +20,7 @@ public class HomeController : Controller
      private Pet GetPetFromSession()
     {
         Pet sessionPet = HttpContext.Session.GetObjectFromJson<Pet>("Pet");
-        return sessionPet ?? new Pet();
+        return sessionPet ?? myPet;
     }
 
     private void SavePetToSession(Pet pet)
@@ -30,7 +30,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
 {
-    Pet myPet = HttpContext.Session.GetObjectFromJson<Pet>("Pet") ?? new Pet();
+    Pet myPet = GetPetFromSession();
 
     
     if (myPet.fullness >= 100 && myPet.happiness >= 100 && myPet.energy >= 100)

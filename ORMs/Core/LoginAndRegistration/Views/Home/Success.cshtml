@@ -1,0 +1,16 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model User
+
+
+<div style="margin: 0; padding: 0; height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
+
+    <form asp-controller="Home" asp-action="Logout" method="post" style="position: absolute; right: 10px; top: 10px;">
+    <button type="submit" style="position: absolute; right: 10px; top: 10px; background: none; color: blue; border: none; padding: 0; cursor: pointer;">
+    Logout</button>
+    </form>
+
+    <h1>Success!</h1>
+
+</div>
