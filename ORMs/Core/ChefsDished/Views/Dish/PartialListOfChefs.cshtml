@@ -1,0 +1,19 @@
+@model List<Chef>
+
+<div class="form-group">
+    <label for="ChefId" class="control-label">Chef's Name:</label>
+    <select id="selectedChefId" name="selectedChefId" class="form-control"> 
+        <option >-------select a chef ------</option>
+        @if (Model != null)
+        {
+            foreach(Chef c in Model)
+            {
+                
+                
+                    <option value="@c.ChefId">@c.FirstName @c.LastName</option>
+                
+            }
+        }
+    </select>
+    
+</div>

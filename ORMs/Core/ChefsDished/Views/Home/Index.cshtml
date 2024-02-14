@@ -1,0 +1,37 @@
+﻿
+
+@model List<Chef>
+
+<div class="navbar">
+    <a href="@Url.Action("Index", "Home")">Chefs</a>
+    <a href="@Url.Action("Index", "Dish")">Dishes</a>
+    <a href="@Url.Action("AddChef", "Home")">Add Chef</a>
+    <a href="@Url.Action("AddDish", "Dish")">Add Dish</a>
+</div>
+
+<div class="text-center">
+    <div style="text-align: left; margin-left: auto; margin-right: auto; margin-top:20px;">
+        <h3><u>Check out our roster of Chefs !</u></h3>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Number of Dishes</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Chef c in Model)
+                {
+                    <tr>
+                        <td>@c.FirstName  @c.LastName</td>
+                        <td>@(DateTime.Today.Year - c.DateOfBirth.Year)</td>
+                        <td>@c.CreatedDishes.Count</td>
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

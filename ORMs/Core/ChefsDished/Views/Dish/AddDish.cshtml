@@ -1,0 +1,39 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model Dish
+
+<div class="navbar">
+    <a href="@Url.Action("Index", "Home")">Chefs</a>
+    <a href="@Url.Action("Index", "Dish")">Dishes</a>
+    <a href="@Url.Action("AddChef", "Home")">Add Chef</a>
+    <a href="@Url.Action("AddDish", "Dish")">Add Dish</a>
+</div>
+
+<div class="text-center">
+    <form asp-action="CreateDish" asp-controller="Dish" method="post" >
+                <div class="form-group">
+                    <label for="Name" class="control-label">Name of Dish</label>
+                    <input class="form-control" asp-for="Name">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                    
+                </div>
+                <div class="form-group">
+                    <label for="Calories" class="control-label">Number of Calories</label>
+                    <input class="form-control" asp-for="Calories">
+                    <span asp-validation-for="Calories" class="text-danger"></span>
+                </div>
+                <Partial name="PartialListOfChefs" model="ViewBag.Chefs"></Partial>
+
+                <div class="form-group">
+                    <label for="Tastiness" class="control-label">Tastiness</label>
+                    <input class="form-control" asp-for="Tastiness" >
+                    <span asp-validation-for="Tastiness" class="text-danger"></span>
+                </div>
+              
+                <div class="form-group">
+                    <input type="submit" class="btn btn-primary" value="Add Dish"></button>
+                </div>
+            </form>
+</div>

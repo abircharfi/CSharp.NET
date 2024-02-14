@@ -1,0 +1,39 @@
+
+
+@model List<Dish>
+
+<div class="navbar">
+    <a href="@Url.Action("Index", "Home")">Chefs</a>
+    <a href="@Url.Action("Index", "Dish")">Dishes</a>
+    <a href="@Url.Action("AddChef", "Home")">Add Chef</a>
+    <a href="@Url.Action("AddDish", "Dish")">Add Dish</a>
+</div>
+
+<div class="text-center">
+    <div style="text-align: left; margin-left: auto; margin-right: auto; margin-top:20px;">
+        <h3><u>Yum ! Check out our tasty dishes !</u></h3>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Chef</th>
+                    <th>Tastiness</th>
+                    <th>Calories</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Dish d in Model)
+                {
+                    <tr>
+                        <td>@d.Name</td>
+                        <td>@d.Creator.FirstName  @d.Creator.LastName</td>
+                        <td>@d.Tastiness</td>
+                        <td>@d.Calories</td>
+                        
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
