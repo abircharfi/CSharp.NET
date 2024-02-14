@@ -35,8 +35,7 @@ public class DishController : Controller
     [HttpPost("/Dishes/New")]
     public IActionResult CreateDish(Dish NewDish, int selectedChefId)
     {
-        System.Console.WriteLine(NewDish.Name);
-        System.Console.WriteLine(selectedChefId);
+
         if(ModelState.IsValid)
         { 
             var chef = _context.Chefs.FirstOrDefault(c => c.ChefId == selectedChefId);
