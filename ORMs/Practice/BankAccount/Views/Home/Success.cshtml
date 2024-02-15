@@ -1,0 +1,40 @@
+@model Transaction
+
+
+<h1>Welcom, @ViewBag.User.FirstName</h1>
+<h2>Current Balance : @ViewBag.Balance</h2>
+
+<form asp-action="CreateTransaction" method="post">
+    
+    <div class="form-group">
+        <label for="Amount" class="control-label">Deposit / Withdraw : </label>
+         <input asp-for="Amount" class="form-control" type="number" />       
+    </div>
+    <input type="hidden" name="UserselId" value="@ViewBag.User.UserId">
+     
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+</form>
+
+<table class="table table-striped ">
+        <thead>
+            <th>Amount</th>
+            <th>Date</th>
+
+        </thead>
+        <tbody>
+
+            @foreach (Transaction t in ViewBag.User.Transactions)
+            {
+                <tr>
+                    <td>@t.Amount</td>
+                    <td>@t.CreatedAt</td>
+                    
+                </tr>
+
+            }
+        </tbody>
+    </table>
+
+
