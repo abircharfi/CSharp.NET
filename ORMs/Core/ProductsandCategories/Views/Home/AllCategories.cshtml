@@ -1,0 +1,19 @@
+@model List<Category>
+
+<div class="container">
+    <h1>All Categories</h1>
+
+    @if(Model != null && Model.Any())
+    {
+        foreach(Category c in Model)
+        {
+            <div>
+                <a href="category/@c.CategoryId">@c.Name</a> 
+            </div>
+        }
+    }
+    else
+    {
+        <p>No Categories found.</p>
+    }
+</div>

@@ -1,0 +1,39 @@
+@model List<Category>
+<div class="container">
+    <h1 style="text-align: center;">@ViewBag.product.Name</h1>
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Categories</h2>
+            @if (ViewBag.product.ProductAssociated != null)
+            {
+                foreach (var pa in ViewBag.product.ProductAssociated)
+                {
+                    <p>@pa.AssociatedCategory.Name</p>
+                }
+            }
+        </div>
+
+        <div class="col-md-6">
+            <h2>All Categories</h2>
+
+            <form asp-action="AddCategoryToProduct" method="post">
+                <div class="form-group">
+                    <input type="hidden" name="ProductId" value="@ViewBag.product.ProductId">
+                    <label for="CategoryId" class="control-label">Add Categories</label>
+                    <select id="CategoryId" name="CategoryId" class="form-control">
+                        <option value="">------Select a Category-------</option>
+                        @foreach (Category c in Model)
+                        {
+                            <option value="@c.CategoryId">@c.Name</option>
+                        }
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Add</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>
