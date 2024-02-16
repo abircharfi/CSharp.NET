@@ -2,7 +2,8 @@
 
 
 <h1>Welcom, @ViewBag.User.FirstName</h1>
-<h2>Current Balance : @ViewBag.Balance</h2>
+<h2 style="color: @((ViewBag.Balance > 0) ? "green" : "red");">Current Balance : @ViewBag.Balance</h2>
+
 
 <form asp-action="CreateTransaction" method="post">
     

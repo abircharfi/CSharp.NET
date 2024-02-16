@@ -1,10 +1,11 @@
-﻿#pragma warning disable CS8602 
+﻿
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using BankAccount.Models;
-using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Http;
+
 
 namespace BankAccount.Controllers;
 
@@ -36,6 +37,7 @@ public class HomeController : Controller
                 return View("Index");
                 
             }
+             HttpContext.Session.GetInt32("newUser.UserId");
              var hasher = new PasswordHasher<User>();
              newUser.Password = hasher.HashPassword(newUser,newUser.Password);
              _context.Add(newUser);
@@ -66,6 +68,7 @@ public class HomeController : Controller
             ModelState.AddModelError("LoginPassword","Invalid Password");
             return View("Index");
         }
+        HttpContext.Session.SetInt32("id",UserIndb.UserId);
         return RedirectToAction("Success",new { id = UserIndb.UserId });
 
         }
@@ -77,6 +80,8 @@ public class HomeController : Controller
    [HttpGet("account/{id}")]
 public IActionResult Success(int id)
 {
+    if(HttpContext.Session.GetInt32("id")!= null)
+    {
     var userWithTransactions = _context.Users.Include(u => u.Transactions).FirstOrDefault(u => u.UserId == id);
     if (userWithTransactions == null)
     {
@@ -88,6 +93,9 @@ public IActionResult Success(int id)
     ViewBag.Balance = userWithTransactions.Transactions.Sum(t => t.Amount);
 
     return View();
+    }
+    ModelState.AddModelError("LoginPassword","You must be logged in !");
+    return View("Index");
 }
 
     
