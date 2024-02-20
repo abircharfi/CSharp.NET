@@ -1,0 +1,38 @@
+
+
+@model Wedding
+
+<div class="navbar">
+    <h3>Welcome @ViewBag.user.FirstName !</h3> 
+    <a href="@Url.Action("Success", "Home")">Home</a>
+    <a href="@Url.Action("AddWedding", "Wedding")">Plan a Wedding</a>
+    <a href="@Url.Action("Logout", "Home")">Logout</a>
+</div> 
+
+<h1>Plan a wedding </h1>
+<form class="w-50" asp-action="CreateWedding" method="post">
+    <input type="hidden" asp-for="UserId" value="@ViewBag.currentUserId">
+    <div class="mb-3">
+        <label class="form-label" asp-for="WedderOne"></label>
+        <input class="form-control " asp-for="WedderOne">
+        <span class="text-danger" asp-validation-for="WedderOne"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label" asp-for="WedderTwo"></label>
+        <input class="form-control " asp-for="WedderTwo">
+        <span class="text-danger" asp-validation-for="WedderTwo"></span>
+    </div>
+    <div class="mb-3">
+        <label class="form-label" asp-for="WeddDate"></label>
+        <input class="form-control" asp-for="WeddDate" type="date"></input>
+        <span class="text-danger" asp-validation-for="WeddDate"></span>
+    </div>
+    <div class="mb-3">
+        
+        <label class="form-label" asp-for="WeddAddress"></label>
+        <input class="form-control" asp-for="WeddAddress"></input>
+        <span class="text-danger" asp-validation-for="WeddAddress"></span>
+    </div>
+    <button class="btn btn-primary ">Create</button>
+</form>

@@ -1,0 +1,27 @@
+@model Wedding
+
+<div class="navbar">
+    <h3>Welcome @ViewBag.user.FirstName !</h3> 
+    <a href="@Url.Action("Success", "Home")">Home</a>
+    <a href="@Url.Action("AddWedding", "Wedding")">Plan a Wedding</a>
+    <a href="@Url.Action("Logout", "Home")">Logout</a>
+</div> 
+
+<div class="container mt-3">
+    <h1>@Model.WedderOne and @Model.WedderTwo's Wedding</h1>
+    <h5>@Model.WeddDate.ToString("MMM dd, yyyy")</h5>
+    <div class="guests-list mt-4">
+        <h6>Guests:</h6>
+        <ul class="list-group">
+            @foreach(User guest in ViewBag.Guests)
+            {
+                <li class="list-group-item">@guest.FirstName @guest.LastName</li>
+            }
+        </ul>
+    </div>
+</div>
+
+
+
+
+

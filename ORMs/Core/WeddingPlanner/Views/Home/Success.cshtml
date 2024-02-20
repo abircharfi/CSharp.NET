@@ -1,0 +1,60 @@
+@{
+    int currentUserId = (int)Context.Session.GetInt32("UserId");
+    var userAttendances = ViewBag.userAttendances as List<int>; 
+}
+
+
+@model List<Wedding>
+
+<div class="navbar">
+    <h3>Welcome @ViewBag.user.FirstName !</h3> 
+    <a href="@Url.Action("Success", "Home")">Home</a>
+    <a href="@Url.Action("AddWedding", "Wedding")">Plan a Wedding</a>
+    <a href="@Url.Action("Logout", "Home")">Logout</a>
+</div> 
+@if (Model != null && Model.Count == 0)
+
+{
+    <h3 class="bg-warning text-center">There's still no weddings !</h3>
+}
+else
+{
+    <table class="table table-striped ">
+        <thead>
+            <th>Wedding of</th>
+            <th>Date</th>
+            <th>Guest Count</th>
+            <th>Actions</th>
+        </thead>
+        <tbody>
+            @foreach (Wedding wed in Model)
+            {
+                <tr>
+                    <td><a asp-action="DisplayWedding" asp-controller="Wedding" asp-route-WedId="@wed.WeddingId" asp-route-userId="@currentUserId" >@wed.WedderOne & @wed.WedderTwo</a></td>
+
+                    <td>@wed.WeddDate.ToString("MMM dd, yyyy")</td>
+                    <td>@wed.Guests.Count</td>
+                    <td>
+                        @if (@wed.UserId == currentUserId)
+                        {
+                            <a asp-action="DeleteWedding" asp-controller="Wedding" asp-route-WedId="@wed.WeddingId">Delete</a>
+                        }
+                        else
+                        {
+                            if (!userAttendances.Contains(wed.WeddingId))
+                            {
+                                <a asp-action="Reserv" asp-controller="Wedding" asp-route-WedId="@wed.WeddingId" asp-route-userId="@currentUserId">RSVP</a>
+                      
+                            }
+                            else
+                            {
+                                 <a asp-action="UnReserv" asp-controller="Wedding" asp-route-WedId="@wed.WeddingId"  asp-route-userId="@currentUserId">UNRSVP</a>
+                      
+                            }
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
