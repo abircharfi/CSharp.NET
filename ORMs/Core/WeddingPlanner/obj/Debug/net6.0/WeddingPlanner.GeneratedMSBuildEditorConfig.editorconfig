@@ -27,10 +27,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abir8_jgal/OneDrive/Bureau/C\#.NET/ORMs/Core/WeddingPlanner/Views/Home/Success.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTdWNjZXNzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/abir8_jgal/OneDrive/Bureau/C\#.NET/ORMs/Core/WeddingPlanner/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -45,6 +41,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/abir8_jgal/OneDrive/Bureau/C\#.NET/ORMs/Core/WeddingPlanner/Views/Wedding/DisplayWedding.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VkZGluZ1xEaXNwbGF5V2VkZGluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abir8_jgal/OneDrive/Bureau/C\#.NET/ORMs/Core/WeddingPlanner/Views/Wedding/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VkZGluZ1xTdWNjZXNzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/abir8_jgal/OneDrive/Bureau/C\#.NET/ORMs/Core/WeddingPlanner/Views/_ViewImports.cshtml]

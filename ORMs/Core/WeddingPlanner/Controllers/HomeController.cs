@@ -1,4 +1,6 @@
-﻿using System.Reflection.PortableExecutable;
+﻿using System;
+using System.Security.Principal;
+using System.Reflection.PortableExecutable;
 using System.Xml.Serialization;
 using System.Net;
 using System.Diagnostics;
@@ -44,7 +46,7 @@ public class HomeController : Controller
         _context.SaveChanges();
         var nwUser = _context.Users.Add(NewUser).Entity;
         HttpContext.Session.SetInt32("UserId", nwUser.UserId);
-        return RedirectToAction("Success");
+        return RedirectToAction("Success","wedding");
         
       }
 
@@ -73,7 +75,7 @@ public class HomeController : Controller
                 return View("Index");
             }
             HttpContext.Session.SetInt32("UserId", userInDB.UserId);             
-            return RedirectToAction("Success");
+            return RedirectToAction("Success","wedding");
         }
 
         return View ("Index");
@@ -86,29 +88,12 @@ public class HomeController : Controller
         {
             
             HttpContext.Session.Clear();
-             ModelState.AddModelError("LoginPassword","You should Connect !");
+            
             return RedirectToAction("Index");
     }
 
-    [HttpGet("/weddings")]
-    public IActionResult Success()
-    {
-        var userInSession = HttpContext.Session.GetInt32("UserId");
-        if(userInSession == null)
-        {
-            return RedirectToAction("Index");
-        }
-        var weddings = _context.Weddings.Include(wed => wed.Guests).ThenInclude(atennd=>atennd.User).ToList();
-        var user = _context.Users.FirstOrDefault(u => u.UserId == userInSession);
-        ViewBag.user = user;
-       var userAttendances = _context.Attendances
-        .Where(a => a.UserId == userInSession)
-        .Select(a => a.WeddingId)
-        .ToList();
-        ViewBag.userAttendances = userAttendances;
-          return View(weddings);
-      
-    }
+    
+
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
