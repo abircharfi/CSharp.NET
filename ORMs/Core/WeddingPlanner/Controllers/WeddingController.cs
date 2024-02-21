@@ -39,11 +39,13 @@ public IActionResult Success()
     {       
     foreach (var item in pastWedding)
         {
-            var relatedAttendances = _context.Attendances.Where(a => a.WeddingId == item.WeddingId).ToList();
-            if (relatedAttendances.Any())
+            List<Attendance> relatedAttendances = _context.Attendances.Where(a => a.WeddingId == item.WeddingId).ToList();
+            foreach (Attendance a in relatedAttendances.ToList())
             {
-                _context.Attendances.RemoveRange(relatedAttendances);
-                _context.SaveChanges(); 
+                
+                    _context.Attendances.Remove(a);
+                    _context.SaveChanges();
+
             }
             _context.Weddings.Remove(item);
             _context.SaveChanges();
@@ -153,11 +155,13 @@ public IActionResult DeleteWedding(int WedId)
     var weddingToDelete = _context.Weddings.FirstOrDefault(w => w.WeddingId == WedId);
         if (weddingToDelete != null)
         {
-            var relatedAttendances = _context.Attendances.Where(a => a.WeddingId == WedId).ToList();
-            if (relatedAttendances.Any())
+            List<Attendance> relatedAttendances = _context.Attendances.Where(a => a.WeddingId == WedId).ToList();
+            foreach (Attendance a in relatedAttendances.ToList())
             {
-                _context.Attendances.RemoveRange(relatedAttendances);
-                _context.SaveChanges(); 
+                
+                    _context.Attendances.Remove(a);
+                    _context.SaveChanges();
+
             }
             _context.Weddings.Remove(weddingToDelete);
             _context.SaveChanges();
