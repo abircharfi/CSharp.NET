@@ -8,14 +8,11 @@ public class FutureDateAttribute : ValidationAttribute
     protected override ValidationResult IsValid(object value, ValidationContext validationContext)
     {
     
-        if (value is DateTime date)
-        {
-            if (date > DateTime.Now)
+         if (((DateTime)value) <= DateTime.Now)
             {
-        return ValidationResult.Success;
+                return new ValidationResult("Only dates in the future are allowed!");
             }
-        }
-        return new ValidationResult("Date must be in the future");
+            return ValidationResult.Success;
     
     }
 }

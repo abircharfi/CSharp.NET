@@ -81,24 +81,15 @@ public IActionResult Success()
     [HttpPost]
     public IActionResult CreateWedding(Wedding NewWedding)
     {
+        var UserInSession = HttpContext.Session.GetInt32("UserId");
     if (ModelState.IsValid)
     {
         _context.Add(NewWedding);
         _context.SaveChanges();
-
-        var newAttendance = new Attendance
-        {
-            UserId = NewWedding.UserId, 
-            WeddingId = NewWedding.WeddingId 
-        };
-
-        _context.Add(newAttendance);
-        _context.SaveChanges();
-
-        return RedirectToAction("DisplayWedding", new { WedId = NewWedding.WeddingId, userId = newAttendance.UserId });
+       return RedirectToAction("DisplayWedding", new { WedId = NewWedding.WeddingId, userId = UserInSession });
 
     }
-    var UserInSession = HttpContext.Session.GetInt32("UserId");
+    
     ViewBag.currentUserId = UserInSession;
     var user =_context.Users.FirstOrDefault(u => u.UserId == UserInSession);
     ViewBag.user = user;
