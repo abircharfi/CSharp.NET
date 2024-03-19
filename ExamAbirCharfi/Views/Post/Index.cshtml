@@ -1,0 +1,144 @@
+@{
+    #pragma warning disable CS8602
+    #pragma warning disable CS8629
+    int currentUserId = (int)Context.Session.GetInt32("UserId");
+}
+
+@model List<Post>
+
+@if (Model != null && Model.Count == 0)
+
+{
+    <h3 class="bg-warning text-center">There's still no Posts !</h3>
+}
+else
+{
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <form method="get" action="/posts" style="display: flex; gap: 10px; align-items: center;">  
+    <div class="form-group" style="flex-grow: 1; max-width: 200px;">
+      <input type="text" class="form-control form-control-sm" name="searchMedium" placeholder="Search By Medium">
+    </div>
+    <button type="submit" class="btn" style="background-color: purple; color: white;">Search</button>
+  </form>
+  <a href="/posts" class="btn" style="background-color: purple; color: white;">Clear Search</a>
+</div>
+
+ <div class="containerPost" style="margin-top: 20px;">
+  
+@foreach(Post post in Model){
+  <div class="post">
+    <img src="@post.Image" alt="Post Image">
+    <a asp-action="showOne" asp-controller="Post" asp-route-PostId="@post.PostId" ><h2>@post.Title</h2></a>
+    <p>By: @post.Creator.Name</p>
+    <p>Medium : @post.Medium</p>
+        @{
+      var Postedtime = DateTime.Now - post.CreatedAt;
+      var days = Postedtime.Days;
+      var hours = Postedtime.Hours;
+      var minutes = Postedtime.Minutes;
+      var seconds = Postedtime.Seconds;
+    }
+
+    <p><span style="color: purple;">Posted 
+  @if(Postedtime.Days > 0) {
+      @Postedtime.Days @(Postedtime.Days == 1 ? " day" : " days")
+      if(Postedtime.Hours > 0 || Postedtime.Minutes > 0 || Postedtime.Seconds > 0) {
+        <text>, </text>
+      }
+  }
+  @if(Postedtime.Hours > 0) {
+    @Postedtime.Hours @(Postedtime.Hours == 1 ? " hour" : " hours")
+    if(Postedtime.Minutes > 0 || Postedtime.Seconds > 0) {
+        <text>, </text>
+    }
+  }
+  @if(Postedtime.Minutes > 0) {
+    @Postedtime.Minutes @(Postedtime.Minutes == 1 ? " minute" : " minutes")
+    if(Postedtime.Seconds > 0) {
+        <text>, </text>
+    }
+  }
+  @if(Postedtime.Seconds > 0) {
+    @Postedtime.Seconds @(Postedtime.Seconds == 1 ? " second" : " seconds")
+  } ago</span></p>
+
+
+
+    <p>@(post.IsForSale? "For Sale" : "Not For Sale")</p>
+
+@{
+
+  var likerCount = post.Likers.Count;
+  string likerText = "";
+bool userLiked = post.Likers.Any(liker => liker.UserId == currentUserId);
+
+if (post.UserId == currentUserId && !userLiked)
+{
+    likerText = "No likes so far ";
+}
+else if (likerCount == 0)
+{
+    likerText = "Be the first to like this";
+}
+else if (userLiked)
+{
+  if (likerCount == 1)
+    {       
+        likerText = "Liked by you";
+    }
+    else
+    {
+        likerText = $"Liked by you and {likerCount - 1} other(s)";
+    }
+}
+else
+{    
+  var firstLiker = post.Likers.FirstOrDefault(); 
+  var firstLikerName = firstLiker.User?.Name; 
+    if (likerCount == 1)
+    {
+        likerText = $"Liked by {firstLikerName}";
+    }
+    else
+    {
+        likerText = $"Liked by {firstLikerName} and {likerCount - 1} others";
+    }
+}
+
+}
+<p><span style="color: purple;">@likerText</span></p>
+
+
+
+    <div class="actions">
+    @{
+        bool userHasLikedPost = post.Likers.Any(like => like.UserId == currentUserId);
+        if (post.UserId == currentUserId)
+        {
+            <a asp-action="EditPost" asp-controller="Post" asp-route-PostId="@post.PostId">Edit</a>
+            <a asp-action="DeletePost" asp-controller="Post" asp-route-PostId="@post.PostId">Delete</a>
+        }
+        else if (!userHasLikedPost)
+        {
+            <form class="w-50" asp-action="LikeThePost" method="post">
+                <input type="hidden" name="UserId" value="@ViewBag.UserId">
+                <input type="hidden" name="PostId" value="@post.PostId">
+                <button class="btn btn-warning">Like</button>
+            </form>
+        }
+        else
+        {
+            <form class="w-50" asp-action="UnLikeThePost" method="post">
+                <input type="hidden" name="UserId" value="@ViewBag.UserId">
+                <input type="hidden" name="PostId" value="@post.PostId">
+                <button class="btn btn-outline-success">UnLike</button>
+            </form>
+        }
+    }
+</div>
+
+   </div>
+} 
+
+</div>
+}

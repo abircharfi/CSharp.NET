@@ -1,0 +1,37 @@
+
+@{
+    #pragma warning disable CS8629
+    int currentUserId = (int)Context.Session.GetInt32("UserId");
+}
+@model Post
+
+
+
+<h1>Make a post</h1>
+<form class="w-50" asp-action="CreatePost" method="post">
+    <input type="hidden" asp-for="UserId" value="@currentUserId">
+    
+    <div class="mb-3">
+        <label class="form-label" asp-for="Image"></label>
+        <input class="form-control " asp-for="Image">
+        <span class="text-danger" asp-validation-for="Image"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label" asp-for="Title"></label>
+        <input class="form-control " asp-for="Title">
+        <span class="text-danger" asp-validation-for="Title"></span>
+    </div>
+    <div class="mb-3">
+        <label class="form-label" asp-for="Medium"></label>
+        <input class="form-control" asp-for="Medium"></input>
+        <span class="text-danger" asp-validation-for="Medium"></span>
+    </div>
+    <div class="mb-3">
+        
+        <label class="form-check-label" asp-for="IsForSale"></label>
+        <input class="form-check-input" asp-for="IsForSale"></input>
+        <span class="text-danger" asp-validation-for="IsForSale"></span>
+    </div>
+    <button class="btn btn-primary ">Post</button>
+</form>
